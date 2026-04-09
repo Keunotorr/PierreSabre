@@ -27,5 +27,10 @@ public class HistoireTP4 {
 		yaku.parler("Tiens, tiens, ne serait-ce pas un faible marchand qui passe par là ?");
 		yaku.extroquer(marco);
 		
+        // Exercice 2.3
+		System.out.println("");
+		
+		Ronin roro = new Ronin("Roro", "shochu", 60);
+		roro.donner(marco);
 	}
 }
