@@ -10,5 +10,14 @@ public class HistoireTP4 {
 		prof.acheter("un jeu", 2);
 		prof.acheter("un kimono", 50);
 		
+		// Exercice 2.1
+		System.out.println("");
+		
+		Commercant marco = new Commercant("Marco", 20);
+		marco.direBonjour();
+		marco.seFaireExtroquer();
+		marco.recevoir(15);
+		marco.boire();
+		
 	}
 }
