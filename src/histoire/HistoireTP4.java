@@ -18,6 +18,14 @@ public class HistoireTP4 {
 		marco.seFaireExtroquer();
 		marco.recevoir(15);
 		marco.boire();
+
+		// Exercice 2.2
+		System.out.println("");
+		
+		Yakusa yaku = new Yakusa("Yaku Le Noir", "whisky", 30, "Warsong");
+		yaku.direBonjour();
+		yaku.parler("Tiens, tiens, ne serait-ce pas un faible marchand qui passe par là ?");
+		yaku.extroquer(marco);
 		
 	}
 }
